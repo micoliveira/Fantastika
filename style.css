@@ -1,0 +1,360 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  @font-face {
+    font-family: "Roboto", sans-serif;
+    src: url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap")
+  } 
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #252525;
+      height: 15vh;
+    }
+    header nav {
+      display: flex;
+      justify-content: space-around;
+      align-content: center;
+      width: 100%;
+      height: 10vh;
+    }
+  
+    header h1 {
+      color: #ffffff;
+      font-family: "Roboto Serif", serif;
+      font-size: 20px;
+    }
+    main {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+  
+    footer {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+    }
+  
+    .logo-pata {
+      display: flex;
+      justify-content: center;
+      height: 5vh;
+    }
+  
+    .logo-principal {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      height: 20vh;
+      width: 25vw;
+    }
+  
+    .link-header {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      width: 10vw;
+      height: 5vh;
+    }
+    .nav-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  
+    .primeira-secao {
+      display: flex;
+      justify-items: space-between;
+      align-items: center;
+      flex-direction: column;
+      height: 130vh;
+      width: 100%;
+      background-image: url("./asset/fundo-main.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      color: #ffffff;
+      text-align: center;
+    }
+  
+    .primeira-secao img {
+      flex-direction: row;
+      justify-items: center;
+      align-content: center;
+      height: 40vh;
+      width: 30vw;
+      padding-top: 5%;
+    }
+    .primeira-secao h2 {
+      font-size: 51px;
+      font-family: "Roboto", sans-serif;
+      font-style: bold;
+    }
+  
+    .segunda-secao {
+      display: flex;
+      justify-content: space-around;
+      flex-direction: column;
+      background-image: url("./asset/fundo2.png");
+      background-repeat: no-repeat;
+      background-size: 100%;
+      height: 130vh;
+      width: 100vw;
+    }
+    .segunda-secao div {
+      justify-items: space-between;
+      width: 50vw;
+      height: 45vh;
+    }
+    .segunda-secao div button a {
+      text-decoration: none;
+    }
+    .h2-main {
+      display: flex;
+      align-items: center;
+      font-size: 49px;
+      margin-bottom: 20px;
+      font-family: "Roboto", sans-serif;
+      font-style: bold;
+      color: #3a342f;
+    }
+    .p-main {
+      display: flex;
+      align-items: center;
+      font-size: 20px;
+      font-family: "Roboto", sans-serif;
+      font-style: normal;
+      color: #3a342f;
+      margin-bottom: 20px;
+    }
+    .button-1 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #3a342f;
+      color: #f4f2f3;
+      font-family: "Roboto Serif", serif;
+      font-weight: bold;
+      font-size: 27px;
+      width: 20vw;
+      height: 10vh;
+      border-radius: 25px;
+      box-shadow: none;
+      border: transparent;
+    }
+  
+    .button-1 a {
+      text-decoration: none;
+    }
+  
+    .terceira-secao {
+      display: flex;
+      justify-content: space-around;
+      background-image: url("./asset/fundo3.png");
+      background-size: 100%;
+      background-repeat: no-repeat;
+      height: 100vh;
+      width: 100vw;
+    }
+    .terceira-secao div {
+      flex-direction: column;
+      display: flex;
+      align-items: center;
+      align-content: flex-end;
+      justify-items: flex-end;
+      justify-content: space-between;
+      width: 50vw;
+      height: 70vh;
+      padding-left: 30%;
+    }
+    .h2-2 {
+      font-family: "Roboto Serif", serif;
+      font-weight: bold;
+      font-size: 49px;
+      color: #ffffff;
+    }
+    .p-2 {
+      font-family: "Roboto Serif", serif;
+      font-size: 27px;
+      color: #ffffff;
+    }
+    .button-2 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #ffffff;
+      color: #000000;
+      font-family: "Roboto Serif", serif;
+      font-weight: bold;
+      font-size: 27px;
+      width: 13vw;
+      height: 10vh;
+      border-radius: 30px;
+      border: transparent;
+      box-shadow: none;
+    }
+  
+    .secao-1-footer {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+      height: 20vh;
+      width: 120vw;
+      color: #fd6a9a;
+      font-family: "Roboto Serif", serif;
+      font-style: italic;
+      font-size: 20px;
+    }
+  
+    .secao-2-footer {
+      display: flex;
+      justify-content: space-around;
+      padding-right: 30%;
+      width: 100vw;
+      height: 50vh;
+      background-color: #eb4a7b;
+      color: #ffffff;
+    }
+  
+    .secao-2-footer h2 {
+      font-family: "Roboto Serif", serif;
+      font-size: 24px;
+      font-style: bold;
+      width: 13vw;
+      height: 5vh;
+    }
+    .secao-2-footer li {
+      display: flex;
+      list-style-type: none;
+      font-size: 14px;
+      width: 20vw;
+      height: 6vh;
+    }
+  
+    .fantastika-mobile {
+      display: none;
+    }   
+  
+  .h1-mobile {
+    display: none;
+  }
+  
+  @media screen and (max-width: 500px) {
+    .img-header {
+      display: none;
+    }
+  
+    .primeira-secao {
+      align-items: center;
+      background-image: url("./asset/dog1mobile.png");
+      height: 100vh;
+    }
+  
+    .primeira-secao h2 {
+      text-align: center;
+      font-size: 40px;
+    }
+  
+    .primeira-secao img {
+      width: 30vw;
+    }
+  
+    .pata-main img {
+      height: 30vh;
+      width: 15vw;
+    }
+    .segunda-secao {
+      display: flex;
+      justify-content: space-around;
+      width: 100vw;
+      height: 85vh;
+      background-image: url("./asset/dog2mobile.png");
+    }
+    .segunda-secao div {
+      height: 75vh;
+      width: 90vw;
+      align-items: flex-start;
+      text-align: left;
+    }
+    .button-1 {
+      width: 45vw;
+      height: 8vh;
+    }
+  
+    .terceira-secao {
+      background-image: url("./asset/dog3mobile.png");
+      background-size: 100% 100%;
+      display: flex;
+      width: 100vw;
+      height: 100vh;
+      flex-direction: row-reverse;
+      flex-wrap: wrap;
+      justify-content: flex-start;
+    }
+    .terceira-secao div {
+      width: 100vw;
+      height: 50vh;
+      align-items: flex-start;
+      justify-items: flex-start;
+    }
+    .button-2 {
+      width: 40vw;
+      height: 5vh;
+    }
+  
+    .secao-1-footer {
+      height: 20vh;
+      width: 60vw;
+      flex-wrap: wrap;
+    }
+    .secao-1-footer img {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  
+    .secao-2-footer {
+      display: flex;
+      height: 100vh;
+      flex-direction: column;
+      align-items: center;
+      padding-left: 80px;
+    }
+    .secao-2-footer h2 {
+      padding-right: 50px;
+      width: 40vw;
+    }
+    .secao-2-footer ul a {
+      align-items: flex-start;
+      text-align: left;
+      height: 10vh;
+    }
+    .fantastika-mobile {
+      display: flex;
+      justify-content: center;
+      background-color: #eb4a7b;
+      color: white;
+      width: 100vw;
+      height: 7vh;
+    }
+  
+    .secao-mobile {
+      background-color: #eb4a7b;
+    }
+    .logo-pata-mobile {
+      height: 5vh;
+    }
+    .social-footer {
+      background-color: #eb4a7b;
+      display: flex;
+      justify-content: space-around;
+      align-content: center;
+      width: 100vw;
+    }
+}
+  
